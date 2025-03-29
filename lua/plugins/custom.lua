@@ -1,10 +1,3 @@
---[[return {
-  {
-    "folke/tokyonight.nvim",
-    lazy = true,
-    opts = { style = "day" },
-  },
-}--]]
 return {
   {
     "folke/snacks.nvim",
@@ -17,6 +10,12 @@ return {
         hidden = true,
         ignored = true,
       },
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "catppuccin-frappe",
     },
   },
 }
